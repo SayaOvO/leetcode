@@ -1,4 +1,4 @@
-const cache: {[n: number]: number} = {};
+const cache: {[n: number]: number} = {1: 1, 2: 2};
 
 function climbStairs(n: number): number {
 
