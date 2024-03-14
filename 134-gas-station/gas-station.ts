@@ -9,7 +9,6 @@ function canCompleteCircuit(gas: number[], cost: number[]): number {
         let acc = 0, i = start;
         for (;i < len; i++) {
             acc += gas[i]
-            console.log("acc:", acc)
             if (acc < 0) {
                 start = i + 1;
                 sum += acc;
